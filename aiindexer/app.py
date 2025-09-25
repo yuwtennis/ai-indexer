@@ -1,8 +1,8 @@
 import importlib
 import traceback
 
-from buddyindexer import indexers
-from buddyindexer.settings import Settings
+from aiindexer import indexers
+from aiindexer.settings import Settings
 
 
 def run():

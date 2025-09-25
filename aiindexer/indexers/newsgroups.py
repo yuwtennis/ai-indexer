@@ -5,8 +5,8 @@ from langchain_redis import RedisVectorStore, RedisConfig
 from sklearn.datasets import fetch_20newsgroups
 from sklearn.utils import Bunch
 
-from buddyindexer.settings import NewsGroupsSettings
-from buddyindexer.stores.redis import RedisOps
+from aiindexer.settings import NewsGroupsSettings
+from aiindexer.stores.redis import RedisOps
 
 
 NEWSGROUPS_INDEX = "newsgroups"

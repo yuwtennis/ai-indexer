@@ -1,6 +1,6 @@
 import logging
 
-from buddyindexer.app import run
+from aiindexer.app import run
 
 def main():
     logging.basicConfig(level=logging.INFO)
